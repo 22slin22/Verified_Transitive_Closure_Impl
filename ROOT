@@ -1,4 +1,4 @@
-session Transitive_Closure_Meta_Impl = HOL +
+session Transitive_Closure_Meta_Impl (AFP) = HOL +
   options [document = pdf, document_output = "output"]
   sessions
     "HOL-Library"
