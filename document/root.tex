@@ -1,0 +1,36 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{isabelle,isabellesym}
+
+% this should be the last package used
+\usepackage{pdfsetup}
+
+% urls in roman style, theory text in math-similar italics
+\urlstyle{rm}
+\isabellestyle{it}
+
+
+\begin{document}
+
+\title{Transitive Closure Implementation with Meta data}
+\author{Nils Cremer}
+\maketitle
+
+\begin{abstract}
+In this work we provide algorithms to calculate the transitive closure of a relation.
+In addition to the transitive closure the algirhtms also provides meta data for each element such as corresponsing proof term.
+We prove correctness of the algorithms in the sense that the transitive closure is produced and that the meta data are valid with respect to a user specified predicate.
+\end{abstract}
+
+\tableofcontents
+
+% sane default for proof documents
+\parindent 0pt\parskip 0.5ex
+
+% generated text of all theories
+\input{session}
+
+%\bibliographystyle{abbrv}
+%\bibliography{root}
+
+\end{document}
